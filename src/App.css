@@ -1,0 +1,101 @@
+body {
+  background-color: #339933;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.holder {
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.submit_button{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+}
+
+.text{
+  margin: 6px;
+}
+
+.request_card{
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  font-size: 13px;
+}
+
+.highlighted {
+    border: 2px solid #ffdf00;
+    border-radius: 7px;
+}
+
+.playing_space{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align:center;
+}
+
+.human_player {
+  text-align: center;
+}
+
+.player_div {
+  text-align:center;
+  width : 190px;
+  margin: 0 20px 10px 20px;
+  display : inline-block;
+}
+
+img {
+  margin: 0 7px 0 7px;
+  position: relative;
+}
+
+.your_cards{
+  margin: 0 7px 0 7px;
+  position: relative;
+}
+
+.set_card {
+  position: relative;
+  display: inline-block;
+  margin-right: -25px;
+  margin-left: -25px;
+}
+
+.deck_card {
+  position: relative;
+  display: inline-block;
+  margin-right: -34px;
+  margin-left: -35px;
+}
+
+input {
+  border-radius:4px;
+}
+
+.wrapper{
+  text-align:center;
+}
+
+.request {
+  font-family: 'Fira Sans', sans-serif;
+  width: 30%;
+  font-size:20px;
+  box-sizing: border-box;
+}
+
+.history {
+  text-align: left;
+  display: inline-block;
+  font-size: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 25%;
+}
+
+.low_margin {
+  margin: 3px;
+}
